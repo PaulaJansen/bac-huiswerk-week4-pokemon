@@ -1,13 +1,11 @@
-import com.sun.source.doctree.EscapeTree;
-
 public class GrassPokemon extends Pokemon {
     private int amountOfLeaves;
     private int strengthOfGust;
 
 
-    public GrassPokemon(String type, String name, int hp, int amountOfLeaves) {
+    public GrassPokemon(String type, String name, int hp, int strengthOfGust) {
         super(type, name, hp);
-        this.amountOfLeaves = amountOfLeaves;
+        this.strengthOfGust = strengthOfGust;
     }
 
     @Override

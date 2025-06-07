@@ -1,12 +1,11 @@
 public class WaterPokemon extends Pokemon {
     private int amountOfBlasters;
-    private int strengthOfBlasters;
+    private int strengthOfWater;
     private int strengthOfShield;
 
-    public WaterPokemon(String type, String name, int hp,int amountOfBlasters, int strengthOfBlasters){
+    public WaterPokemon(String type, String name, int hp, int strengthOfWater){
         super(type, name, hp);
-        this.amountOfBlasters = amountOfBlasters;
-        this.strengthOfBlasters = strengthOfBlasters;
+        this.strengthOfWater = strengthOfWater;
     }
 
     @Override
@@ -19,8 +18,12 @@ public class WaterPokemon extends Pokemon {
         System.out.println("Water pokemon use shells for defence.");
     }
 
-    public void hydroCanon(int amountOfBlasters,int strengthOfBlasters){
-        System.out.println(getName() + " uses " + amountOfBlasters + " blasters with " + strengthOfBlasters + " xp." );
+    public void hydroCanon(int amountOfBlasters,int strengthOfWater){
+        System.out.println(getName() + " uses " + amountOfBlasters + " blasters with " + strengthOfWater + " xp." );
+    }
+
+    public void tackle(int strengthOfWater){
+        System.out.println(getName() + " tackles with strength " + strengthOfWater + " xp." );
     }
 
     public void shellShield(int strengthOfShield){
@@ -29,8 +32,8 @@ public class WaterPokemon extends Pokemon {
 
 
 //    getters
-    public int getStrengthOfBlasters(){
-        return strengthOfBlasters;
+    public int getStrengthOfWater(){
+        return strengthOfWater;
     }
 
     public int getAmountOfBlasters(){
@@ -46,8 +49,8 @@ public class WaterPokemon extends Pokemon {
         this.amountOfBlasters = amountOfBlasters;
     }
 
-    public void setStrengthOfBlasters(int strengthOfBlasters){
-        this.strengthOfBlasters = strengthOfBlasters;
+    public void setStrengthOfWater(int strengthOfWater){
+        this.strengthOfWater = strengthOfWater;
     }
 
     public void setStrengthOfShield(int strengthOfShield){

@@ -24,7 +24,7 @@ public class ElectricPokemon extends Pokemon {
     }
 
     public void voltTackle(int volts){
-        System.out.println(getName() + " uses volt tackle with strenght " + volts + " xp.");
+        System.out.println(getName() + " uses volt tackle with strenght " + getVolts() + " xp.");
     }
 
 

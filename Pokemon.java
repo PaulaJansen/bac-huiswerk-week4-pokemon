@@ -5,6 +5,7 @@ public abstract class Pokemon {
 
 
     public Pokemon(String type, String name, int hp){
+
         this.type = type;
         this.name = name;
         this.hp = hp;
