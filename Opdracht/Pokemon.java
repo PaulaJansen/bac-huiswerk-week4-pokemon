@@ -1,3 +1,5 @@
+package Opdracht;
+
 public abstract class Pokemon {
     private String type;
     private String name;

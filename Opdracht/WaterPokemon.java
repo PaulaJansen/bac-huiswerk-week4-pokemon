@@ -1,3 +1,5 @@
+package Opdracht;
+
 public class WaterPokemon extends Pokemon {
     private int amountOfBlasters;
     private int strengthOfWater;

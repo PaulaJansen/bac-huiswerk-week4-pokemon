@@ -1,3 +1,5 @@
+package Opdracht;
+
 public class DualTypePokemon extends Pokemon {
     private String type2;
 

@@ -1,3 +1,5 @@
+package Opdracht;
+
 public class PokemonTrainer {
     private String nameOfTrainer;
 

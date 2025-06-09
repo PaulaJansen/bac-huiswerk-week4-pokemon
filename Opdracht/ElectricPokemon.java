@@ -1,3 +1,5 @@
+package Opdracht;
+
 public class ElectricPokemon extends Pokemon {
     private int volts;
     private int amountOfBolts;

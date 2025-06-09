@@ -1,3 +1,5 @@
+package Opdracht;
+
 public class GrassPokemon extends Pokemon {
     private int amountOfLeaves;
     private int strengthOfGust;

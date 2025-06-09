@@ -1,3 +1,5 @@
+package Opdracht;
+
 public class FirePokemon extends Pokemon {
     private int heatOfFire;
     private int amountOfFlameThrowers;
