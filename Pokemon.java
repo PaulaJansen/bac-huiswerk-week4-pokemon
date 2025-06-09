@@ -5,10 +5,12 @@ public abstract class Pokemon {
 
 
     public Pokemon(String type, String name, int hp){
-
         this.type = type;
         this.name = name;
         this.hp = hp;
+    }
+
+    public Pokemon(){
     }
 
     public abstract void specialAttack();
@@ -23,13 +25,10 @@ public abstract class Pokemon {
     }
 
     public void printHp(int hp){
-        System.out.println("Deze pokemion heeft " + hp + " health points.");
+        System.out.println("Deze pokemon heeft " + hp + " health points.");
     }
 
-
-
 //    getters
-
     public String getType() {
         return type;
     }
@@ -43,7 +42,6 @@ public abstract class Pokemon {
     }
 
 //    setters
-
     public void setType(String type) {
         this.type = type;
     }

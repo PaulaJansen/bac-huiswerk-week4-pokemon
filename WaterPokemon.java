@@ -8,6 +8,7 @@ public class WaterPokemon extends Pokemon {
         this.strengthOfWater = strengthOfWater;
     }
 
+
     @Override
     public void specialAttack(){
         System.out.println("Water pokemon have blasters.");

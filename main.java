@@ -27,8 +27,8 @@ public class main {
        contestant3.setAmountOfLeaves(4);
        contestant3.leafStorm(contestant3.getAmountOfLeaves(), contestant3.getStrengthOfGust());
 
-
-
+       DualTypePokemon contestant5 = new DualTypePokemon("water", "grass", "Lotad", 50);
+       System.out.println(contestant5.getName() + " is a " + contestant5.getType() + " and " + contestant5.getType2() + " pokemon.");
 
 
 

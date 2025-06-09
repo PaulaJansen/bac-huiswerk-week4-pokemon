@@ -8,6 +8,7 @@ public class GrassPokemon extends Pokemon {
         this.strengthOfGust = strengthOfGust;
     }
 
+
     @Override
     public void specialAttack(){
         System.out.println("Grass pokemon have wind gusts.");

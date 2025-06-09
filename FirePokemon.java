@@ -1,12 +1,12 @@
 public class FirePokemon extends Pokemon {
-    private int heathOfFire;
+    private int heatOfFire;
     private int amountOfFlameThrowers;
 
 
 
-    public FirePokemon(String type, String name, int hp, int heathOfFire) {
+    public FirePokemon(String type, String name, int hp, int heatOfFire) {
         super(type, name, hp);
-        this.heathOfFire = heathOfFire;
+        this.heatOfFire = heatOfFire;
 
     }
 
@@ -21,18 +21,18 @@ public class FirePokemon extends Pokemon {
     }
 
     public void inferno(int heathOfFire){
-        System.out.println(getName() + " uses inferno with strength " + heathOfFire + " xp.");
+        System.out.println(getName() + " uses inferno with strength " + heatOfFire + " xp.");
     }
 
     public void throwFlames(int amountOfFlameThrowers){
-        System.out.println(getName() + " uses " + amountOfFlameThrowers + " flame throwers with strenght" + heathOfFire + " xp." );
+        System.out.println(getName() + " uses " + amountOfFlameThrowers + " flame throwers with strenght" + heatOfFire + " xp." );
     }
 
 
 
 //    getters
-    public int getHeathOfFire(){
-        return heathOfFire;
+    public int getHeatOfFire(){
+        return heatOfFire;
     }
 
     public int getAmountOfFlameThrowers(){
@@ -40,8 +40,8 @@ public class FirePokemon extends Pokemon {
     }
 
 //    setters
-    public void setHeathOfFire(int heathOfFire) {
-        this.heathOfFire = heathOfFire;
+    public void setHeatOfFire(int heatOfFire) {
+        this.heatOfFire = heatOfFire;
     }
 
     public void setAmountOfFlameThrowers(int amountOfFlameThrowers) {
